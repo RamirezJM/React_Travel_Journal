@@ -27,7 +27,7 @@ export default function Card({data}) {
   return (
     <>
       {data.map(d => (
-        <section className="card" key={d.title}>
+        <section className="card" key={d.id}>
           <div className="card-content">
             <h2>{d.title}</h2>
             <div className='card-header'>
