@@ -26,8 +26,9 @@ main{
   display: grid;
   grid-template-columns: 1fr;
   width: 90%;
-  padding: 1em;
-  margin: 0 auto;
+  
+  margin: 2em auto;
+  gap: 1.5em;
 }
 .card{
   display: flex;
@@ -72,4 +73,17 @@ h2{
   color: #918E9B;
   margin-left: auto;
   
+}
+
+@media (min-width:1000px){
+  main{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card{
+    flex-direction: column;
+  }
+  .card-image{
+    align-self: center;
+    width: 100%;
+  }
 }
