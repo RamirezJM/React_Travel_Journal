@@ -2,6 +2,7 @@
 ### (data driven challenge)
 Project for Frontend Development Specialization / Scrimba
 
+https://ramirezjm.github.io/React_Travel_Journal/
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![Static Badge](https://img.shields.io/badge/HTML5-%23f06529)
